@@ -96,7 +96,7 @@ export default class PDFParser {
       temperature: 0,
       messages: [
         {
-          role: 'assistant',
+          role: 'system',
           content: systemPrompt,
         },
         {
